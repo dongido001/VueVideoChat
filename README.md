@@ -1,30 +1,33 @@
-# video-chat
+# A demo Video chat app using Vue.js
+   
+## Prerequsite
 
-> A Vue.js project
+To run this project, you need to have:
 
-## Build Setup
+- [Node.js](https://nodejs.org/) installed on your system
+- A server for generating a token. Clone and install it [here](https://github.com/dongido001/TwilioNodeServer.git).
+
+## Setup
+
+Clone the repository:
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+ git clone https://github.com/dongido001/VueVideoChat.git
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+cd into the project:
+``` bash
+cd VueVideoChat
+```
+
+Install dependecies:
+
+``` bash
+npm install
+```
+
+``` bash
+npm run dev
+```
+
+And that's it. You can read more about how it was built [here](https://blog.twilio.com)
