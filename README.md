@@ -32,4 +32,6 @@ Run the app!
 npm run dev
 ```
 
+The app should now be accessible from http://localhost:8080
+
 And that's it. You can read more about how it was built [here](https://blog.twilio.com)
